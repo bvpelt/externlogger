@@ -1,0 +1,18 @@
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+  "timestamp": "2024-01-01T10:00:00.00",
+  "message": "test - 01"
+}
+
+###
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+  "timestamp": "2024-01-02T10:00:00.00",
+  "message": "test - 02"
+}
+
+###
